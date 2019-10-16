@@ -1,1 +1,16 @@
 # Python Script Net Module
+
+## NET
+
+### IPADDRESS
+### SOCKET
+### SELECT
+### SOCKETSERVER
+### URLLIB
+### HTTP.SERVER
+### HTTP.COOKIES
+### WEBBROWSER
+### JSON
+### XML
+### SMTPLIB
+### IMAPLIB
