@@ -5,7 +5,7 @@ a = 33
 b = 200
 if b > a:
   print("b is greater than a")
-
+#---
 input()
 
 # > Indentation
@@ -14,7 +14,7 @@ a = 33
 b = 200
 if b > a:
 print("b is greater than a") # you will get an error
-
+#---
 input()
 
 #if elif
@@ -25,6 +25,7 @@ if b > a:
 elif a == b:
   print("a and b are equal")
 
+#---
 input()
 # if elif else
 a = 200
@@ -36,6 +37,7 @@ elif a == b:
 else:
   print("a is greater than b")
 
+#---
 input()
 
 #else
@@ -46,6 +48,7 @@ if b > a:
 else:
   print("b is not greater than a")
 
+#---
 input()
 
 #Nested if
