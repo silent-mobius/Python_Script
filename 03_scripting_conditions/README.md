@@ -27,3 +27,6 @@ Python evaluates each expression (i.e. the condition) one by one and if a true c
 
 ## Nested if .. else statement
 In general nested if-else statement is used when we want to check more than one conditions. Conditions are executed from top to bottom and check each condition whether it evaluates to true or not. If a true condition is found the statement(s) block associated with the condition executes otherwise it goes to next condition.
+
+## Define a negative if
+ If a condition is true the `not` operator is used to reverse the logical state, then logical `not` operator will make it false. 
