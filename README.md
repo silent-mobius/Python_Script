@@ -1,7 +1,8 @@
 # Python_Script
+
 examples of python script syntax 
 
-Content
+### Content
 
 - [Basics](00_basics/README.md)
 - [Scripting Intro](01_scripting_intro/README.md)
