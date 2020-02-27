@@ -9,6 +9,7 @@ Using the variables, print the following to the screen when you run the script:
 
 My name is FIRST_NAME LAST_NAME.
 I was born on BIRTH_DATE and I'm AGE years old.
+
 ---
 
 Create a script that has a single variable you can set at the top called user. This user is a dictionary containing the keys:
@@ -31,6 +32,7 @@ Depending on the values of user, print one of the following to the screen when y
 Change the values of user and re-run the script multiple times to ensure that it works.
 
 ---
+
 Building on top of the conditional exercise, write a script that will loop through a list of users, where each item is a user dictionary from the previous exercise, printing out each user’s status on a separate line. Additionally, print the line number at the beginning of each line, starting with line 1. Be sure to include a variety of user configurations in the users list.
 
 User Keys:
@@ -45,6 +47,7 @@ Depending on the values of the user, print one of the following to the screen wh
     print ACTIVE - followed by the user’s name if the user is active.
     print ACTIVE - (ADMIN) followed by the user’s name if the user is an admin and active.
     print the user’s name if neither active nor an admin.
+
 ---
 
 Which of these values would cause an if block to execute if used as the if statement's conditional?
@@ -81,6 +84,7 @@ Real-Time Evaluated Python Logic
 None of these answers.
 
 Read Expression Per Line
+
 ---
 
 What value represents nothingness in Python?
@@ -92,7 +96,9 @@ None
 nil
 
 null
+
 ---
+
 Which of the following shebangs can you leverage to use the system Python on a CentOS system?
 
 #!/sbin/python
@@ -102,6 +108,7 @@ Which of the following shebangs can you leverage to use the system Python on a C
 #!/bin/python
 
 #!~/bin/python
+
 ---
 
 How can you run a non-executable Python file?
@@ -113,6 +120,7 @@ python run file.py
 None of the answers listed are correct.
 
 python file.py
+
 ---
 
 Which of these are valid strings?
@@ -137,7 +145,9 @@ What would the result of 4 * '1.1' be?
 '4.4'
 
 TypeError
+
 ---
+
 Which of these would have a float for the result?
 
 (Possible Correct: 2)
@@ -149,6 +159,7 @@ float(6 * 3)
 3 * str(2.0)
 
 2.0 / 3
+
 ---
 
 Which of these "is" comparisons will return True?
@@ -162,7 +173,9 @@ Which of these "is" comparisons will return True?
 1 is 1
 
 [1] is [1]
+
 ---
+
 What type of loop is used to create an infinite loop? (Choose the option with the most straightforward implementation.)
 
 A do ... while loop.
@@ -172,7 +185,9 @@ A while loop.
 A for loop.
 
 You cannot create an infinite loop in Python.
+
 ---
+
 How would you create a new variable with the value "test"?
 
 let foo = "test"
@@ -182,6 +197,7 @@ foo = "test"
 var foo string = "test"
 
 foo == "test"
+
 ---
 
 How would you get the value of the key 'color' from a dictionary called 'favorites'?
@@ -193,7 +209,9 @@ None of the answers listed
 favorites['color']
 
 favorites.read('color')
+
 ---
+
 Which of these can be used as a key in a dictionary?
 
 (Possible Correct: 3)
@@ -205,6 +223,7 @@ Which of these can be used as a key in a dictionary?
 (1, 2)
 
 [1, 2, 3]
+
 ---
 
 Functions are a great way to organize your code for reuse and clarity. Write a script that does the following:
@@ -216,6 +235,7 @@ Functions are a great way to organize your code for reuse and clarity. Write a s
 To end the script, call the function with the user-defined values to print to the screen.
 
 ---
+
 Functions are a great way to organize your code for reuse and clarity. Write a script that does the following:
 
     Prompts the user for a message to echo
@@ -238,6 +258,7 @@ This task will require some more advanced string formatting. You can read the do
 print("%.*f" % (10, my_float))
 
 ---
+
 Write a script that prompts the user for:
 
     A file_name where it should write the content.
@@ -289,10 +310,13 @@ Hints:
     You can either use the kill command outside of Python or the os.kill(pid, 9) function.
 
 ---
+
 You’ve now written a few scripts that handle errors, but when the failures happen the status code returned is still a success (0).
 
 Improve your script to kill processes by exiting with an error status code when there isn’t a process to kill
+
 ---
+
 Which of these types can be iterated over?
 
 (Possible Correct: 3)
@@ -304,7 +328,9 @@ string
 float
 
 dictionary
+
 ---
+
 Which of these values would cause an if block to execute if used as the if statement's conditional?
 
 (Possible Correct: 2)
@@ -316,7 +342,9 @@ Which of these values would cause an if block to execute if used as the if state
 "test"
 
 0
+
 ---
+
 When can you use a comment in Python?
 
 (Possible Correct: 3)
@@ -328,7 +356,9 @@ At the beginning of a line.
 In the middle of a function's parentheses.
 
 At the beginning of a file.
+
 ---
+
 Which of these for loop declarations is NOT valid?
 
 (Possible Correct: 2)
@@ -340,7 +370,9 @@ for x in [1, 2, 3]:
 for x, y in [(1, 2), (2, 3), (3,4)]:
 
 for x, y in [1, 2, 3]:
+
 ---
+
 What is the file extension for Python?
 
 .p
@@ -350,7 +382,9 @@ What is the file extension for Python?
 .py
 
 .egg
+
 ---
+
 How would you create a new variable with the value "test"?
 
 let foo = "test"
@@ -360,7 +394,9 @@ foo = "test"
 var foo string = "test"
 
 foo == "test"
+
 ---
+
 Which tuples could be used in print("%s %s" % my_tuple) without causing an error?
 
 (Possible Correct: 2)
@@ -372,7 +408,9 @@ Which tuples could be used in print("%s %s" % my_tuple) without causing an error
 (2.0, 3.0)
 
 (1, 2, 3)
+
 ---
+
 How would you get every item with an even index (0, 2, 4, etc.) from a list using slicing?
 
 my_list[:2]
@@ -382,10 +420,13 @@ my_list[::2]
 None of the answers listed.
 
 my_list[2:]
+
 ---
 
 Utilize pip to install the psycopg2 library (a PostgreSQL database library). Be sure to first create and activate a virtualenv before installing the package
+
 ---
+
 Make sure that you have the requests package installed. Now, write a script that does the following:
 
     Accepts a URL and destination file name from the user calling the script.
@@ -394,7 +435,9 @@ Make sure that you have the requests package installed. Now, write a script that
     Writes the contents of the page out to the destination.
 
 Note: You’ll want to use the text attribute to get the HTML. To write this content on Python 2, you’ll need to convert the unicode object to a string by using res.text.encode("UTF-8").
+
 ---
+
 What command would you use to upgrade an installed Python package? Example: boto3
 
 pip boto3
@@ -406,6 +449,7 @@ pip update boto3
 pip upgrade boto3
 
 ---
+
 When using pip, what is the standardized name for a file listing dependencies?
 
 None of the answers listed
@@ -415,7 +459,9 @@ EGG file
 Wheel file
 
 requirements.txt
+
 ---
+
 Over the course of the next few exercises, you’ll be creating a Python package to manage users on a server based on an “inventory” JSON file. The first step in this process is going to be setting up the project’s directory structure and metadata.
 
 Do the following:
@@ -428,6 +474,7 @@ Do the following:
     Set the project up in source control and make your initial commit.
 
 ---
+
 The ideal usage of the hr command is this:
 
 $ hr path/to/inventory.json
@@ -446,7 +493,9 @@ For this exercise, Write a few tests before implementing a CLI parser. Ensure th
     An error is raised if no arguments are passed to the parser.
     No error is raised if a path is given as an argument.
     The export value is set to True if the --export flag is given.
+
 ---
+
 The tool you’re building is going to be running on Linux systems and it’s safe to assume that it’s going to run via sudo. With this information it’s safe to say that the tool can utilize usermod, useradd, and userdel to keep users on the server up to date.
 
 Create a module in your package to work with user information. You’ll want to be able to do the following:
@@ -487,7 +536,9 @@ Python modules you’ll want to research:
     grp - Group database.
 
 Be careful in testing not to delete your own user or change your password to something that you don’t know.
+
 ---
+
 The last module that you’ll implement for this package is one for interacting with the user inventory file. The inventory file is a JSON file that holds user information. The module needs to:
 
     Have a function to read a given inventory file, parse the JSON, and return a list of user dictionaries.
@@ -521,16 +572,20 @@ Example inventory JSON file:
 ]
 
 Hint: If you’re writing tests for this code you’ll need to heavily rely on mocking to make the interactions with modules like grp, pwd, and spwd consistent.
+
 ---
 
     Implement main function that ties all of the modules together based on input to the CLI parser.
     Modify the setup.py so that when installed there is an hr console script.
 
 ---
+
 Now that you know the tools works it’s time to build it for distribution. Build a wheel for the package and use it to install the hr tool on your system.
 
 Note: This package doesn’t support Python 3, so it is not a “universal” package.
+
 ---
+
 How do you create a package in a Python project?
 
 Name a Python file with the package name you want to create.
@@ -540,8 +595,10 @@ Prefix the file name with package_.
 None of the answers listed are correct.
 
 Put an __init__.py file in a directory with the desired name.
+
 ---
-hat single tool can you use to create virtualenvs and manage dependencies?
+
+What single tool can you use to create virtualenvs and manage dependencies?
 
 pipenv
 
@@ -550,7 +607,9 @@ pip
 venv
 
 virtualenv
+
 ---
+
 how do you access a file in Python?
 
 File('filename.txt')
@@ -560,7 +619,9 @@ open('filename.txt')
 os.readfile('filename.txt')
 
 None of the answers listed
+
 ---
+
 Which keywords are part of the error catching functionality in Python?
 
 (Possible Correct: 3)
@@ -572,7 +633,9 @@ try
 else
 
 except
+
 ---
+
 Which of these function calls is valid for this function definition: def area(length, width, height=1):?
 
 (Possible Correct: 2)
@@ -584,7 +647,9 @@ area(length=2, 2, 2)
 area(2, width=2)
 
 area(1, 2)
+
 ---
+
 How would you access the "path" attribute on a Namespace object called "args"?
 
 None of the answers listed.
@@ -596,6 +661,7 @@ args.path
 args['path']
 
 ---
+
 Which of the following are valid ways to load in additional Python libraries?
 
 (Possible Correct: 2)
