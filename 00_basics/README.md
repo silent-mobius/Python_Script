@@ -8,7 +8,7 @@
 
 ### Compile
 
-#### C C++ C# 
+#### C, C++ or C# 
 
 The difference between compile time and run time is an example of what pointy-headed theorists call the phase distinction. It is one of the hardest concepts to learn, especially for people without much background in programming languages. To approach this problem, I find it helpful to ask
 
@@ -33,7 +33,7 @@ The program need not satisfy any invariants. In fact, it needn't be a well-forme
 
 ### Run Time Environment
 
-#### JavaScript Bash Python 
+#### JavaScript, Bash or Python 
 
 We know nothing about the program's invariants---they are whatever the programmer put in. Run-time invariants are rarely enforced by the compiler alone; it needs help from the programmer.
 
