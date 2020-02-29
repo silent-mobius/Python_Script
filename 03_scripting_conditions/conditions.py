@@ -38,7 +38,7 @@ else:
   print("a is greater than b")
 
 #---
-input()
+input('Please press enter to continue')
 
 #else
 a = 200
@@ -49,7 +49,7 @@ else:
   print("b is not greater than a")
 
 #---
-input()
+input('Please press enter to continue')
 
 #Nested if
 x = 41
@@ -60,3 +60,13 @@ if x > 10:
     print("and also above 20!")
   else:
     print("but not above 20.")
+
+if a % 2 == 0:
+  print('Odd')
+
+if b % 2 == 0 :
+  print('Even')
+
+
+
+if (a / 2) and (a % 2):
