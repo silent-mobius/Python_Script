@@ -4,7 +4,7 @@
 a = 33
 b = 200
 if b > a:
-  print("b is greater than a")
+    print("b is greater than a")
 #---
 input()
 
@@ -13,7 +13,7 @@ input()
 a = 33
 b = 200
 if b > a:
-print("b is greater than a") # you will get an error
+    print("b is greater than a") # you will get an error
 #---
 input()
 
@@ -21,9 +21,9 @@ input()
 a = 33
 b = 33
 if b > a:
-  print("b is greater than a")
+    print("b is greater than a")
 elif a == b:
-  print("a and b are equal")
+    print("a and b are equal")
 
 #---
 input()
@@ -31,11 +31,11 @@ input()
 a = 200
 b = 33
 if b > a:
-  print("b is greater than a")
+    print("b is greater than a")
 elif a == b:
-  print("a and b are equal")
+    print("a and b are equal")
 else:
-  print("a is greater than b")
+    print("a is greater than b")
 
 #---
 input('Please press enter to continue')
@@ -44,9 +44,9 @@ input('Please press enter to continue')
 a = 200
 b = 33
 if b > a:
-  print("b is greater than a")
+    print("b is greater than a")
 else:
-  print("b is not greater than a")
+    print("b is not greater than a")
 
 #---
 input('Please press enter to continue')
@@ -61,12 +61,27 @@ if x > 10:
   else:
     print("but not above 20.")
 
-if a % 2 == 0:
-  print('Odd')
+if a % 2 != 0:
+    print('Odd')
 
 if b % 2 == 0 :
-  print('Even')
+    print('Even')
 
+
+input('Please press enter to continue')
 
 
 if (a / 2) and (a % 2):
+    print('got 2 True')
+
+if (a / 2) or (a % 2):
+    print('got at least 1 True')
+
+if not (a / 2):
+    print("got negative")
+
+
+
+
+
+
