@@ -8,7 +8,7 @@ def my_function():
 #calling function
 my_function() 
 
-# another declaration
+# another declaration with argument
 def my_other_function(fname):
     print(fname + " Meyer")
 
